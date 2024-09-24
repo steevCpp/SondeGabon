@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+
+<!--index.html-->
+<!--Survey page of Creighton COVID survey-->
+<!--Made by Jimmy Phelps-->
+<!--November 19, 2020-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ccu8baz.css">
+    <title>COVID-19 Survey</title>
+    <script src="processSurvey.php"></script>
+</head>
+<body>
+    <section id="pinksquare">
+      <div class="textbox">
+        <form method="post" action="processSurvey.php" autocomplete="on">
+              <!--Header-->
+              <h1>COVID-19 Survey</h1>
+              <p>
+                This is a survey for Creighton students referring to the COVID-19 guidelines and the overall saftey on Creghton's campus.
+              </p>
+              <p>
+              </p>
+              <h3>Start</h3>
+              <p>Please answer the questions below:</p>
+
+              <!--Section 1: Disease and Quarantine-->
+              <div class="sect1">
+                <h2>Section 1</h2>
+                <ol>
+                  <li>
+                    <p>Have you tested positive for COVID-19?</p>
+                    <input type="radio" name = "ans1" value="1">Yes
+                    <input type="radio" name = "ans1" value="0">No
+                  </br>
+                  </li>
+                  <li>
+                    <p>On a scale to 10, how severe was your case?</p>
+                    <div class="slideContainer">
+                      <input type="range" name = "ans2" min="1" max="10" value="20">
+                    </div>
+                  </li>
+
+                  <li><p>Where were you when you tested positive?</p>
+                      <input type="radio" name = "ans3" value="1">Home
+                      <input type="radio" name = "ans3" value="1">Work
+                      <input type="radio" name = "ans3" value="1">School
+                      <input type="radio" name = "ans3" value="1">Other
+
+  </li>
+                  <li>
+                    <p>Did your opinion of COVID-19 change after this experience?</p>
+                    <input type="radio" name = "ans4" value="1">Yes
+                    <input type="radio" name = "ans4" value="0">No
+                  </br>
+  </li>
+                  <li>
+                    <p>As someone who had COVID-19, I think Creighton is doing a great job at responding to the pandemic.</p>
+
+                      <input type="radio" name = "ans5" value="1">Yes
+                      <input type="radio" name = "ans5" value="0">No
+
+                  </li>
+                </ol>
+
+              </div>
+
+
+              <!--Section 2: Creighton Fall 2020-->
+              <div class="sect2">
+                <h2>Section 2</h2>
+                <ol>
+                  <li>
+                    <p>On a scale of 1 to 10 how safe do you feel on campus?</p>
+                    <div class="slideContainer">
+                      <input type="range" name = "ans6" min="1" max="10" value="20">
+                    </div>
+                  </br>
+                  </li>
+                  <li>
+                    <p>Do you feel there are adequate resources in enforcing Creighton’s COVID-19 policy?</p>
+                    <input type="radio" name = "ans7" value="1">Yes
+                    <input type="radio" name = "ans7" value="0">No
+                  </li>
+
+                  <li><p>On a scale of 1-4 how often do you wear a mask on campus?</p>
+                  <div class="slideContainer">
+                    <input type="range" name = "ans8" min="1" max="4" value="10">
+
+                  </div>
+  </li>
+                  <li>
+                    <p>I attend on campus temperature screens.</p>
+                    <input type="radio" name = "ans9" value="1">Yes
+                    <input type="radio" name = "ans9" value="0">No
+                  </br>
+  </li>
+                  <li>
+                    <p>How often have you seen Creighton’s COVID-19 policy broken?</p>
+                    <div class="slideContainer">
+                      <input type="radio" name = "ans10" value="4">Always
+                      <input type="radio" name = "ans10" value="3">Frequently
+                      <input type="radio" name = "ans10" value="2">Sometimes
+                      <input type="radio" name = "ans10" value="1">Never
+
+                    </div>
+                  </li>
+                </ol>
+
+              </div>
+
+
+              <!--Section 3: Academics-->
+              <div class="sect3">
+                <h2>Section 3</h2>
+                <ol>
+                  <li>
+                    <p>Has your academic journey been troubled by COVID-19?</p>
+                    <input type="radio" name = "ans11" value="1">Yes
+                    <input type="radio" name = "ans11" value="0">No
+                  </br>
+                  </li>
+                  <li>
+                    <p>Would you prefer in person classes or online?</p>
+                    <input type="radio" name = "ans12" value="1">In-person Classes
+                    <input type="radio" name = "ans12" value="0">Online Classes
+                  </li>
+
+                  <li><p>Were you prepared for the hybrid/online class format?</p>
+                    <input type="radio" name = "ans13" value="1">Yes
+                    <input type="radio" name = "ans13" value="0">No
+  </li>
+                  <li>
+                    <p>Have you fallen behind in school/work?</p>
+                    <input type="radio" name = "ans14" value="1">Yes
+                    <input type="radio" name = "ans14" value="0">No
+                  </br>
+  </li>
+                  <li>
+                    <p>Have you had to drop or withdraw a class this semester?</p>
+                    <div class="slideContainer">
+                      <input type="radio" name = "ans15" value="1">Yes
+                      <input type="radio" name = "ans15" value="0">No
+                    </div>
+                  </li>
+                </ol>
+
+              </div>
+
+
+              <!--Section 4: College Life 2020-->
+              <div class="sect4">
+                <h2>Section 4</h2>
+                <ol>
+                  <li>
+                    <p>How often have you participated in social gatherings during the Fall semester of 2020?</p>
+                    <input type="radio" name = "ans16" value="4">Never
+                    <input type="radio" name = "ans16" value="3">Rarely
+                    <input type="radio" name = "ans16" value="2">Sometimes
+                    <input type="radio" name = "ans16" value="1">Frequently
+
+                  </br>
+                  </li>
+                  <li>
+                    <p>Has COVID-19 negatively impacted your social life?</p>
+                    <input type="radio" name = "ans17" value="1">Yes
+                    <input type="radio" name = "ans17" value="0">No
+
+                  </li>
+
+                  <li><p>Have any of your friends tested positive or been quarantined due to COVID-19?</p>
+                    <input type="radio" name = "ans18" value="1">Yes
+                    <input type="radio" name = "ans18" value="0">No
+  </li>
+                  <li>
+                    <p>Have you been quarantined with or without a positive result?</p>
+                    <input type="radio" name = "ans19" value="1">Yes
+                    <input type="radio" name = "ans19" value="0">No
+                  </br>
+  </li>
+                  <li>
+                    <p>I felt lonely during quarantine.</p>
+                    <div class="slideContainer">
+                      <input type="radio" name = "ans20" value="1">Yes
+                      <input type="radio" name = "ans20" value="0">No
+                    </div>
+                  </li>
+                </ol>
+
+              </div>
+
+
+              <!--Section 5: Mental Health-->
+              <div class="sect5">
+                <h2>Section 5</h2>
+                <ol>
+                  <li>
+                    <p>Has COVID-19 affected your mental health?</p>
+                    <input type="radio" name = "ans21" value="1">Yes
+                    <input type="radio" name = "ans21" value="0">No
+                  </br>
+                  </li>
+                  <li>
+                    <p>I have been more stressed during quarantine.</p>
+                    <input type="radio" name = "ans22" value="1">Yes
+                    <input type="radio" name = "ans22" value="0">No
+                  </li>
+
+                  <li><p>I feel anxious around others.</p>
+                    <input type="radio" name = "ans23" value="1">Yes
+                    <input type="radio" name = "ans23" value="0">No
+  </li>
+                  <li>
+                    <p>Have you suffered from depression?</p>
+                    <input type="radio" name = "ans24" value="1">Yes
+                    <input type="radio" name = "ans24" value="0">No
+                  </br>
+  </li>
+                  <li>
+                    <p>I have felt the same mentality during quarantine and I have noticed no change in my mentality.</p>
+                    <div class="slideContainer">
+                      <input type="radio" name = "ans25" value="1">Yes
+                      <input type="radio" name = "ans25" value="0">No
+                    </div>
+                  </li>
+                </ol>
+
+
+                <!--Form submit/clear-->
+                <p>
+                 <input type = "submit" value = "Submit"/>
+                 <input type = "reset" value = "Clear" />
+                </p>
+
+            </form>
+
+              </div>
+
+
+
+
+
+    </section>
+</body>
+</html>

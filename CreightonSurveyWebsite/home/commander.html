@@ -1,0 +1,436 @@
+<!DOCTYPE html 
+
+<!--index.html-->
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ccu8baz.css">
+    <!--link href="assets/css/style.css" rel="stylesheet" /-->
+    <title>GabonSonde</title>
+    <script src="processSurvey.php"></script>
+
+</head>
+<body>   
+
+    <header>
+        <nav>
+            <a href="index.html">ACCUEIL</a>
+            <a href="#Société">SOCIETE</a>
+            <a href="#Environnement">ENVIRONNEMENT</a>
+            <a href="#Technologie">TECHNOLOGIE</a>
+            <a href="#Sante">SANTE</a>
+            <a href="#Éducation">EDUCATION</a>
+            <a href="#Culture">CULTURE</a>
+            <a href="#Sport">SPORT</a>
+            <a href="#Divers">DIVERS</a>
+        </nav>
+    </header>
+
+
+    <section id="pinksquare"  >
+      <div class="textbox" >
+        <form method="post" action="processSurvey.php" autocomplete="on">
+              <!--Header-->
+	      <h1> </h1>
+              <p>
+                This is a survey for Creighton students referring to the COVID-19 guidelines and the overall saftey on Creghton's campus.
+              </p>
+              <p>
+              </p>
+              <h2>Informations sur le participant</h2>
+	       Noms <input type="text" id="noms" name="noms" required>
+	       Prénoms <input type="text" id="prenoms" name="prenoms" required>
+	       Âge <input type="number" id="age" name="age" > <br> <br>
+               Profession <input type="text" id="profession" name="profession" >
+	       Sexe <input type="text" id="sexe" name="sexe" placeholder = "M, F" required>
+
+               <p>
+                    <input type = "submit" name="submit_participant" value = "Envoyer" />
+               </p>
+
+
+        </form>
+
+        <form method="post" action="processSurvey.php" autocomplete="on">
+              <!--Section -->
+              <details class="sect1" id="Société">
+                <summary >Société</summary>
+		<ol >
+                  <li>
+                    <p>Avez vous déjà été victime ou temoins d'un braquage ?</p>
+                    <input type="radio" name = "reponse1" value="1">Yes
+                    <input type="radio" name = "reponse1" value="0">No
+                  </br>
+                  </li>
+                  <li>
+                    <p>Sur 10, Comment évaluez-vous la sécurité dans votre quartier ?</p>
+                    <div class="slideContainer">
+                      <input type="range" name = "reponse2" min="1" max="10" value="20">
+                    </div>
+                  </li>
+
+                  <li><p>Where were you when you tested positive?</p>
+                      <input type="radio" name = "reponse3" value="1">Home
+                      <input type="radio" name = "reponse3" value="1">Work
+                      <input type="radio" name = "reponse3" value="1">School
+                      <input type="radio" name = "reponse3" value="1">Other
+
+		  </li>
+
+                  <li>
+                    <p>Did your opinion of COVID-19 change after this experience?</p>
+                    <input type="radio" name = "reponse4" value="1">Yes
+                    <input type="radio" name = "reponse4" value="0">No
+                  </br>
+		  </li>
+
+                  <li>
+                    <p>As someone who had COVID-19, I think Creighton is doing a great job at responding to the pandemic.</p>
+
+                      <input type="radio" name = "reponse5" value="1">Yes
+                      <input type="radio" name = "reponse5" value="0">No
+
+                  </li>
+                </ol>
+
+		 <p>
+		        <input type = "submit" name="submit_societe" value = "Envoyer" />
+                </p>
+
+              </details>
+
+        </form>
+
+        <form method="post" action="processSurvey.php" autocomplete="on">
+              <!--Section -->
+              <div class="sect2" id="Environnement">
+                <h2>Environnement</h2>
+                <ol>
+                  <li>
+                    <p>Sur 10,À quel point considérez-vous la protection de l'environnement comme une priorité?</p>
+                    <div class="slideContainer">
+                      <input type="range" name = "reponse1" min="1" max="10" value="20">
+                    </div>
+                  </br>
+                  </li>
+                  <li>
+                    <p> Êtes-vous préoccupé par les changements climatiques ?</p>
+                    <input type="radio" name = "reponse2" value="1">Yes
+                    <input type="radio" name = "reponse2" value="0">No
+                  </li>
+
+                  <li><p>On a scale of 1-4 how often do you wear a mask on campus?</p>
+                  <div class="slideContainer">
+                    <input type="range" name = "reponse3" min="1" max="4" value="10">
+
+                  </div>
+		  </li>
+
+                  <li>
+                    <p>Êtes-vous prêt à payer davantage pour des produits respectueux de l'environnement ?</p>
+                    <input type="radio" name = "reponse4" value="1">Yes
+                    <input type="radio" name = "reponse4" value="0">No
+                  </br>
+		  </li>
+
+                  <li>
+                    <p>How often have you seen Creighton’s COVID-19 policy broken?</p>
+                    <div class="slideContainer">
+                      <input type="radio" name = "reponse5" value="4">Always
+                      <input type="radio" name = "reponse5" value="3">Frequently
+                      <input type="radio" name = "reponse5" value="2">Sometimes
+                      <input type="radio" name = "reponse5" value="1">Never
+
+                    </div>
+                  </li>
+                </ol>
+                 <p>
+                        <input type = "submit" name="submit_environnement" value = "Envoyer" />
+                </p>
+
+              </div>
+
+        </form>
+
+        <form method="post" action="processSurvey.php" autocomplete="on">
+              <!--Section -->
+              <div class="sect3" id="Technologie">
+		<h2>Technologie </h2>
+                <ol>
+                  <li>
+                    <p>Êtes-vous intéressé par les dernières avancées scientifiques ?</p>
+                    <input type="radio" name = "reponse1" value="1">Yes
+                    <input type="radio" name = "reponse1" value="0">No
+                  </br>
+                  </li>
+                  <li>
+                    <p>Quels types de technologies utilisez-vous le plus souvent dreponse votre vie quotidienne (par exemple, smartphones, ordinateurs, internet, etc.) ?</p>
+                    <input type="radio" name = "reponse2" value="1">smartphones
+                    <input type="radio" name = "reponse2" value="0">ordinateurs
+                  </li>
+
+                  <li><p>À quelle fréquence accédez-vous à Internet?</p>
+                    <input type="radio" name = "reponse3" value="1">Yes
+                    <input type="radio" name = "reponse3" value="0">No
+		  </li>
+
+                  <li>
+                    <p>Pensez-vous que les innovations technologiques ont un impact positif sur votre communauté ?</p>
+                    <input type="radio" name = "reponse4" value="1">Yes
+                    <input type="radio" name = "reponse4" value="0">No
+                  </br>
+		  </li>
+
+                  <li>
+                    <p>Have you had to drop or withdraw a class this semester?</p>
+                    <div class="slideContainer">
+                      <input type="radio" name = "reponse5" value="1">Yes
+                      <input type="radio" name = "reponse5" value="0">No
+                    </div>
+                  </li>
+                </ol>
+
+              </div>
+                 <p>
+                        <input type = "submit" name="submit_technologie" value = "Envoyer" />
+                </p>
+        </form>
+
+       	   <form method="post" action="processSurvey.php" autocomplete="on">
+
+              <!--Section -->
+              <div class="sect4" id="Santé">
+	      <h2>Santé</h2>
+                <ol>
+                  <li>
+                    <p>À quelle fréquence accédez-vous aux services de santé (hôpitaux, cliniques, médecins) dreponse votre région ?</p>
+                    <input type="radio" name = "reponse2" value="4">Jamais
+                    <input type="radio" name = "reponse2" value="3">Rarement
+                    <input type="radio" name = "reponse2" value="2">Parfois
+                    <input type="radio" name = "reponse2" value="1">Très souvent
+
+                  </br>
+                  </li>
+                  <li>
+                    <p>Has COVID-19 negatively impacted your social life?</p>
+                    <input type="radio" name = "reponse3" value="1">Yes
+                    <input type="radio" name = "reponse3" value="0">No
+
+                  </li>
+
+                  <li><p>Have any of your friends tested positive or been quarantined due to COVID-19?</p>
+                    <input type="radio" name = "reponse3" value="1">Yes
+                    <input type="radio" name = "reponse3" value="0">No
+		  </li>
+
+                  <li>
+                    <p>Have you been quarantined with or without a positive result?</p>
+                    <input type="radio" name = "reponse4" value="1">Yes
+                    <input type="radio" name = "reponse4" value="0">No
+                  </br>
+		  </li>
+
+                  <li>
+                    <p>I felt lonely during quarantine.</p>
+                    <div class="slideContainer">
+                      <input type="radio" name = "reponse5" value="1">Yes
+                      <input type="radio" name = "reponse5" value="0">No
+                    </div>
+                  </li>
+                </ol>
+                 <p>
+                        <input type = "submit" name="submit_sante" value = "Envoyer" />
+                </p>
+
+              </div>
+
+        </form>
+
+           <form method="post" action="processSurvey.php" autocomplete="on">
+
+              <!--Section -->
+              <div class="sect5" id="Éducation">
+                <h2>Éducation</h2>
+                <ol>
+                  <li>
+                    <p> Êtes-vous pour ou contre l'utilisation des technologies numériques en classe ?</p>
+                    <input type="radio" name = "reponse1" value="1">Pour
+                    <input type="radio" name = "reponse1" value="0">Contre
+                  </br>
+                  </li>
+                  <li>
+                    <p>Êtes-vous en faveur de l'introduction de cours sur l'entreprenariat à l'école ?</p>
+                    <input type="radio" name = "reponse2" value="1">Yes
+                    <input type="radio" name = "reponse2" value="0">No
+                  </li>
+
+                  <li><p>Êtes-vous satisfait du système éducatif ?</p>
+                    <input type="radio" name = "reponse3" value="1">Yes
+                    <input type="radio" name = "reponse3" value="0">No
+		  </li>
+
+                  <li>
+                    <p>Quelles compétences devraient être enseignées de manière prioritaire dreponse les écoles ?</p>
+                    <input type="radio" name = "reponse4" value="1">Yes
+                    <input type="radio" name = "reponse4" value="0">No
+                  </br>
+		  </li>
+
+                  <li>
+                    <p>I have felt the same mentality during quarantine and I have noticed no change in my mentality.</p>
+                    <div class="slideContainer">
+                      <input type="radio" name = "reponse5" value="1">Yes
+                      <input type="radio" name = "reponse5" value="0">No
+                    </div>
+                  </li>
+                </ol>
+
+                <p>
+                 <input type = "submit" name="submit_education" value = "Envoyer"/>
+                </p>
+
+            </form>
+
+
+           <form method="post" action="processSurvey.php" autocomplete="on">
+
+              <!--Section -->
+              <div class="sect6" id="Culture">
+                <h2>Culture</h2>
+                <ol>
+                  <li>
+                    <p> Êtes-vous pour ou contre l'utilisation des technologies numériques en classe ?</p>
+                    <input type="radio" name = "reponse1" value="1">Pour
+                    <input type="radio" name = "reponse1" value="0">Contre
+                  </br>
+                  </li>
+                  <li>
+                    <p>Êtes-vous en faveur de l'introduction de cours sur l'entreprenariat à l'école ?</p>
+                    <input type="radio" name = "reponse2" value="1">Yes
+                    <input type="radio" name = "reponse2" value="0">No
+                  </li>
+
+                  <li><p>Êtes-vous satisfait du système éducatif ?</p>
+                    <input type="radio" name = "reponse3" value="1">Yes
+                    <input type="radio" name = "reponse3" value="0">No
+		  </li>
+
+                  <li>
+                    <p>Quelles compétences devraient être enseignées de manière prioritaire dreponse les écoles ?</p>
+                    <input type="radio" name = "reponse4" value="1">Yes
+                    <input type="radio" name = "reponse4" value="0">No
+                  </br>
+		  </li>
+
+                  <li>
+                    <p>I have felt the same mentality during quarantine and I have noticed no change in my mentality.</p>
+                    <div class="slideContainer">
+                      <input type="radio" name = "reponse5" value="1">Yes
+                      <input type="radio" name = "reponse5" value="0">No
+                    </div>
+                  </li>
+                </ol>
+
+                <p>
+                 <input type = "submit" name="submit_culture" value = "Envoyer"/>
+                </p>
+
+            </form>
+
+              <!--Section -->
+           <form method="post" action="processSurvey.php" autocomplete="on">
+              <div class="sect7" id="Sport">
+                <h2>Sports</h2>
+                <ol>
+                  <li>
+                    <p> Êtes-vous pour ou contre l'utilisation des technologies numériques en classe ?</p>
+                    <input type="radio" name = "reponse1" value="1">Pour
+                    <input type="radio" name = "reponse1" value="0">Contre
+                  </br>
+                  </li>
+                  <li>
+                    <p>Êtes-vous en faveur de l'introduction de cours sur l'entreprenariat à l'école ?</p>
+                    <input type="radio" name = "reponse2" value="1">Yes
+                    <input type="radio" name = "reponse2" value="0">No
+                  </li>
+
+                  <li><p>Êtes-vous satisfait du système éducatif ?</p>
+                    <input type="radio" name = "reponse3" value="1">Yes
+                    <input type="radio" name = "reponse3" value="0">No
+		  </li>
+
+                  <li>
+                    <p>Quelles compétences devraient être enseignées de manière prioritaire dreponse les écoles ?</p>
+                    <input type="radio" name = "reponse4" value="1">Yes
+                    <input type="radio" name = "reponse4" value="0">No
+                  </br>
+		  </li>
+
+                  <li>
+                    <p>I have felt the same mentality during quarantine and I have noticed no change in my mentality.</p>
+                    <div class="slideContainer">
+                      <input type="radio" name = "reponse5" value="1">Yes
+                      <input type="radio" name = "reponse5" value="0">No
+                    </div>
+                  </li>
+                </ol>
+
+                <p>
+                 <input type = "submit" name="submit_sport" value = "Envoyer"/>
+                </p>
+
+            </form>
+
+              <!--Section -->
+           <form method="post" action="processSurvey.php" autocomplete="on">
+              <div class="Divers" id="Divers">
+                <h2>Divers</h2>
+                <ol>
+                  <li>
+                    <p> Êtes-vous pour ou contre l'utilisation des technologies numériques en classe ?</p>
+                    <input type="radio" name = "reponse1" value="1">Pour
+                    <input type="radio" name = "reponse1" value="0">Contre
+                  </br>
+                  </li>
+                  <li>
+                    <p>Êtes-vous en faveur de l'introduction de cours sur l'entreprenariat à l'école ?</p>
+                    <input type="radio" name = "reponse2" value="1">Yes
+                    <input type="radio" name = "reponse2" value="0">No
+                  </li>
+
+                  <li><p>Êtes-vous satisfait du système éducatif ?</p>
+                    <input type="radio" name = "reponse3" value="1">Yes
+                    <input type="radio" name = "reponse3" value="0">No
+		  </li>
+
+                  <li>
+                    <p>Quelles compétences devraient être enseignées de manière prioritaire dreponse les écoles ?</p>
+                    <input type="radio" name = "reponse4" value="1">Yes
+                    <input type="radio" name = "reponse4" value="0">No
+                  </br>
+		  </li>
+
+                  <li>
+                    <p>I have felt the same mentality during quarantine and I have noticed no change in my mentality.</p>
+                    <div class="slideContainer">
+                      <input type="radio" name = "reponse5" value="1">Yes
+                      <input type="radio" name = "reponse5" value="0">No
+                    </div>
+                  </li>
+                </ol>
+
+                <p>
+                 <input type = "submit" name="submit_divers" value = "Envoyer"/>
+                </p>
+
+            </form>	    
+              </div>
+
+    </section>
+
+
+</body>
+</html>

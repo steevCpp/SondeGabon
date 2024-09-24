@@ -1,0 +1,92 @@
+[20-May-2024 16:21:58 US/Central] PHP Warning:  Undefined array key "noms" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 81
+[20-May-2024 16:21:58 US/Central] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' aa, 22, M, gg, ::1)' at line 1 in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php:98
+Stack trace:
+#0 /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php(98): mysqli_query()
+#1 {main}
+  thrown in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 98
+[20-May-2024 16:26:23 US/Central] PHP Warning:  Undefined array key "noms" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 81
+[20-May-2024 16:26:23 US/Central] PHP Fatal error:  Uncaught ValueError: mysqli_stmt::bind_param(): Argument #1 ($types) cannot be empty in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php:90
+Stack trace:
+#0 /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php(90): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 90
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans1" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 37
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans2" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 38
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans3" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 39
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans4" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 40
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans5" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 41
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans6" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 43
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans7" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 44
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans8" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 45
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans9" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 46
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans10" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 47
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans11" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 49
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans12" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 50
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans13" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 51
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans14" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 52
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans15" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 53
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans16" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 55
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans17" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 56
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans18" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 57
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans19" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 58
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans20" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 59
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans21" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 61
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans22" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 62
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans23" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 63
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans24" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 64
+[20-May-2024 16:29:00 US/Central] PHP Warning:  Undefined array key "ans25" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 65
+[20-May-2024 16:40:57 US/Central] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php:90
+Stack trace:
+#0 /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php(90): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 90
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans1" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 37
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans2" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 38
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans3" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 39
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans4" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 40
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans5" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 41
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans6" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 43
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans7" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 44
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans8" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 45
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans9" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 46
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans10" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 47
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans11" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 49
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans12" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 50
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans13" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 51
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans14" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 52
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans15" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 53
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans16" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 55
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans17" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 56
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans18" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 57
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans19" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 58
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans20" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 59
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans21" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 61
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans22" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 62
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans23" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 63
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans24" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 64
+[20-May-2024 16:42:09 US/Central] PHP Warning:  Undefined array key "ans25" in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 65
+[20-May-2024 18:31:29 US/Central] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'reponse1' in 'field list' in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php:111
+Stack trace:
+#0 /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php(111): mysqli->prepare()
+#1 {main}
+  thrown in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 111
+[20-May-2024 18:33:23 US/Central] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php:112
+Stack trace:
+#0 /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php(112): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 112
+[20-May-2024 18:46:49 US/Central] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php:112
+Stack trace:
+#0 /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php(112): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 112
+[20-May-2024 18:49:40 US/Central] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php:113
+Stack trace:
+#0 /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php(113): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 113
+[20-May-2024 18:50:17 US/Central] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php:113
+Stack trace:
+#0 /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php(113): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /var/www/html/CreightonCovidSurvey/CreightonSurveyWebsite/home/processSurvey.php on line 113
